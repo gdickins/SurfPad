@@ -22,6 +22,20 @@ header header {
   height: 100px;
   background: orange;
 }
+main {
+  width: 66%;
+  height: 1007px;
+  background: green;
+  border-bottom: 1px solid grey;
+  float: left;
+}
+section {
+  width: 34%;
+  height: 1007px;
+  background: yellow;
+  border-bottom: 1px solid grey;
+  float: right;
+}
 .topLogo {
   padding-top: 25px;
   width: 50%;
@@ -29,8 +43,15 @@ header header {
   margin-left: 198px;
 }
 .hero {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   background: blue;
   text-align: center;
+  font-size: 106px;
+  padding-top: 88px;
+}
+footer {
+  background: purple;
+  height: 573px;
+  clear:both;
 }
