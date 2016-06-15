@@ -1,0 +1,36 @@
+body {
+  font-family: "Open Sans";
+}
+h1 {
+  font-family: Oswald;
+}
+ul {
+  list-style: none;
+  display: inline;
+  float: right;
+  margin-top: 22px;
+  margin-right: 184px;
+}
+li {
+  display: inline;
+}
+body >header {
+  height: 523px;
+  background: red;
+}
+header header {
+  height: 100px;
+  background: orange;
+}
+.topLogo {
+  padding-top: 25px;
+  width: 50%;
+  float: left;
+  margin-left: 198px;
+}
+.hero {
+  width: 50%;
+  margin: 0 auto;
+  background: blue;
+  text-align: center;
+}
