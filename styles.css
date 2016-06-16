@@ -3,6 +3,9 @@ body {
 }
 h1 {
   font-family: Oswald;
+  font-size: 63px;
+  margin-left: 163px;
+  margin-top: 51px;
 }
 ul {
   list-style: none;
@@ -16,23 +19,20 @@ li {
 }
 body >header {
   height: 523px;
-  background: red;
+  background-image: url(https://placebear.com/1300/523);
 }
 header header {
   height: 100px;
-  background: orange;
 }
 main {
   width: 66%;
   height: 1007px;
-  background: green;
   border-bottom: 1px solid grey;
   float: left;
 }
 section {
   width: 34%;
   height: 1007px;
-  background: yellow;
   border-bottom: 1px solid grey;
   float: right;
 }
@@ -45,13 +45,69 @@ section {
 .hero {
   width: 100%;
   margin: 0 auto;
-  background: blue;
   text-align: center;
   font-size: 106px;
   padding-top: 88px;
+  color: white;
+}
+.hero h3 {
+  font-size: 15px;
+  margin-top: -20px;
+  color: dodgerblue;
+
 }
 footer {
-  background: purple;
   height: 573px;
   clear:both;
+}
+.posterInfo {
+  font-size: 14px;
+  margin-left: 195px;
+  margin-top: -60px;
+}
+main p {
+  margin-left: 164px;
+  margin-top: 30px;
+  margin-right: 75px;
+}
+.blockquote {
+  border-left: 1px solid grey;
+  height: 50px;
+  margin-left: 170px;
+  margin-top: 50px;
+  font-size: 33px;
+  padding-left: 13px;
+}
+main footer {
+  height: 181px;
+}
+footer h1 {
+  text-align: center;
+  margin-left: -2px;
+  padding-top: 23px;
+  height: 81px;
+}
+.imgLinkBar {
+  height: 330px;
+}
+.imgLinkBar div {
+  height: 330px;
+  width: 25%;
+  float:left;
+}
+footer footer {
+  height: 97px;
+  background: #083452
+}
+.img1 {
+  background-image: url(https://placebear.com/325/330);
+}
+.img2 {
+  background-image: url(http://www.placecage.com/c/325/330);
+}
+.img3 {
+  background-image: url(http://www.placecage.com/325/330);
+}
+.img4 {
+  background-image: url(http://fillmurray.com/325/330);
 }
