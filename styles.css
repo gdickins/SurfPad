@@ -1,85 +1,121 @@
 body {
-  font-family: "Open Sans";
+   font-family: 'Open Sans', sans-serif;
+}
+.imgHolder {
+  background: #8CB9E3;
 }
 h1 {
-  font-family: Oswald;
-  font-size: 63px;
-  margin-left: 163px;
-  margin-top: 51px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 390%;
+  margin: 0;
+}
+.topLogo img {
+  width: 6.9%;
+  margin-left: -1.5%;
+  margin-top: 0.9%;
+  float: left;
+}
+.logowords {
+  float: left;
+  padding-top: 2.6%;
+  padding-left: 1.5%;
+}
+.searchbar {
+  color: #015289;
+  font-family: 'Oswald', sans-serif;
+  display: inline;
+  float: right;
+  padding-right: 13%;
+  font-size: 17.4px;
 }
 ul {
   list-style: none;
-  display: inline;
+  display: block;
+  padding-left: 0;
   float: right;
-  margin-top: 22px;
-  margin-right: 184px;
+}
+.bio li {
+  width: 33%
+}
+.searchbar li {
+  margin-left: : 0;
+  padding-left: 16px;
 }
 li {
   display: inline;
+  width: 10%;
 }
 body >header {
-  height: 523px;
+  width: 100%;
+  height: 96.6vh;
   background-image: url(https://placebear.com/1300/523);
+  background-size: cover;
+
 }
+
 header header {
   height: 100px;
 }
 main {
+  box-sizing: border-box;
+  padding-left: 12.5%;
+  padding-right: 6%;
+  margin-top: 4.8%;
+  padding-bottom: 4%;
   width: 66%;
-  height: 1007px;
-  border-bottom: 1px solid grey;
   float: left;
-}
-section {
-  width: 34%;
-  height: 1007px;
+  line-height: 1.13;
   border-bottom: 1px solid grey;
+}
+.sidebar {
+  padding-bottom: 15%;
+  border-bottom: 1px solid grey;
+  box-sizing: border-box;
+  padding-right: 13%;
+  margin-top: 6%;
+  width: 34%;
   float: right;
 }
 .topLogo {
-  padding-top: 25px;
   width: 50%;
   float: left;
-  margin-left: 198px;
+  color: #015289;
+  padding-left: 11.6%;
+  padding-top: 0.2%;
 }
 .hero {
-  width: 100%;
+  width: 99%;
   margin: 0 auto;
   text-align: center;
-  font-size: 106px;
-  padding-top: 88px;
+  font-size: 6.6em;
+  padding-top: .83em;
   color: white;
 }
 .hero h3 {
   font-size: 15px;
   margin-top: -20px;
-  color: dodgerblue;
+  color: #015289;
 
 }
 footer {
-  height: 573px;
+  height: 100%;
   clear:both;
 }
 .posterInfo {
   font-size: 14px;
-  margin-left: 195px;
-  margin-top: -60px;
-}
-main p {
-  margin-left: 164px;
-  margin-top: 30px;
-  margin-right: 75px;
+  margin-left: 33px;
+  padding-top: 2%;
+  padding-bottom: 4%;
 }
 .blockquote {
   border-left: 1px solid grey;
-  height: 50px;
-  margin-left: 170px;
-  margin-top: 50px;
-  font-size: 33px;
-  padding-left: 13px;
+  font-size: 27.4px;
+  padding-top: 20px;
+  padding-left: 21px;
+
 }
 main footer {
-  height: 181px;
+  height: 100%;
 }
 footer h1 {
   text-align: center;
@@ -87,27 +123,46 @@ footer h1 {
   padding-top: 23px;
   height: 81px;
 }
-.imgLinkBar {
-  height: 330px;
+footer section {
+  margin: 0 auto;
+  width: 1300px;
+  max-width: 100%;
 }
-.imgLinkBar div {
-  height: 330px;
+footer section div {
+  box-sizing: border-box;
   width: 25%;
-  float:left;
+  float: left;
+  max-width: 325px;
+  max-height: 330px;
+}
+section div img {
+  width: 100%;
+  opacity: .5;
 }
 footer footer {
   height: 97px;
   background: #083452
 }
-.img1 {
-  background-image: url(https://placebear.com/325/330);
+.bio img {
+  display: block;
+  border-radius: 45px;
+  width: 32%;
+  margin: 0 auto;
 }
-.img2 {
-  background-image: url(http://www.placecage.com/c/325/330);
+div.bio {
+  text-align: center;
 }
-.img3 {
-  background-image: url(http://www.placecage.com/325/330);
+.copyright {
+  width: 50%;
+  float: left;
 }
-.img4 {
-  background-image: url(http://fillmurray.com/325/330);
+.botNav {
+  width: 50%;
+  float: right;
+}
+.mainText p {
+  line-height: 25px;
+}
+.comments {
+  float: left;
 }
