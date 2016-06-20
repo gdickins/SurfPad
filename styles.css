@@ -65,16 +65,35 @@ main {
   width: 66%;
   float: left;
   line-height: 1.13;
-  border-bottom: 1px solid grey;
 }
 .sidebar {
-  padding-bottom: 15%;
-  border-bottom: 1px solid grey;
+  padding-bottom: 11.9%;
   box-sizing: border-box;
-  padding-right: 13%;
-  margin-top: 6%;
+  padding-right: 12.5%;
+  padding-left: 0.2%;
   width: 34%;
   float: right;
+}
+.advert > a {
+  float: right;
+  font-size: 13px;
+  padding-top: 4%;
+  color: grey;
+}
+.sidetext {
+  clear: both;
+  padding-top: 17.5%;
+}
+.sidetext h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #106DB3;
+  margin-top: 0;
+  font-size: 18px;
+}
+.sidetext p {
+  margin-top: -7%;
+  font-size: 13.2px;
+  line-height: 25px;
 }
 .topLogo {
   width: 50%;
@@ -112,6 +131,7 @@ footer {
   font-size: 27.4px;
   padding-top: 20px;
   padding-left: 21px;
+  color: #106DB3;
 
 }
 main footer {
@@ -127,6 +147,7 @@ footer section {
   margin: 0 auto;
   width: 1300px;
   max-width: 100%;
+  padding-top: 3.3%;
 }
 footer section div {
   box-sizing: border-box;
@@ -139,9 +160,14 @@ section div img {
   width: 100%;
   opacity: .5;
 }
+section div img:hover {
+  opacity: 1;
+}
+
 footer footer {
   height: 97px;
-  background: #083452
+  background: #083452;
+  color: white;
 }
 .bio img {
   display: block;
@@ -151,6 +177,27 @@ footer footer {
 }
 div.bio {
   text-align: center;
+  padding-top: 30%;
+  padding-bottom: 25%;
+}
+.bio nav {
+  width: 71%;
+  margin: 0 auto;
+  font-size: 14.7px;
+}
+.bio h3 {
+  margin-bottom: 0;
+  margin-top: 2.3px;
+  font-size: 17.5;
+  color: #015289;
+}
+.bio ul {
+  margin-top: 0;
+  margin-bottom: 25%;
+}
+.bio a {
+  text-decoration: none;
+  color: #A3B3BF;
 }
 .copyright {
   width: 50%;
@@ -165,4 +212,7 @@ div.bio {
 }
 .comments {
   float: left;
+}
+.bigfooter {
+  border-top: 1px solid grey;
 }
