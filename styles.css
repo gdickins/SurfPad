@@ -207,8 +207,11 @@ div.bio {
   float: left;
 }
 .botNav {
-  width: 50%;
+  width: 34%;
   float: right;
+  padding-right: 11.9%;
+  margin-top: 1.7%;
+  font-size: 14px;
 }
 .mainText p {
   color: #5E686F;
@@ -219,4 +222,25 @@ div.bio {
 }
 .bigfooter {
   border-top: 1px solid grey;
+}
+.copyright img {
+  height: 40px;
+  padding-left: 25%;
+  padding-top: 3.5%;
+  float: left;
+}
+.crwords {
+  float: left;
+  font-size: 13px;
+  padding-top: 5.8%;
+  padding-left: 1.7%;
+}
+.botNav a {
+  text-decoration: none;
+  color: white;
+}
+.botNav li {
+  border-right: 1px solid grey;
+  padding-left: 5px;
+  padding-right: 5px;
 }
