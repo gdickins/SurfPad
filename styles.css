@@ -45,6 +45,29 @@ li {
   display: inline;
   width: 10%;
 }
+.comments li {
+  background: #A3B3BF;
+  display: block;
+  float: left;
+  width: 15vw;
+}
+.comments li:hover {
+  background: #106DB3;
+}
+.comments i {
+  padding: 5px;
+  background: #5E686F;
+}
+.comments i:hover {
+  background: #083452;
+}
+.comments a {
+  text-decoration: none;
+  color: white;
+}
+.comments ul {
+  float: left;
+}
 body >header {
   width: 100%;
   height: 96.6vh;
